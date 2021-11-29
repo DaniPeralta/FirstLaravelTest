@@ -14,7 +14,7 @@
         <div class="container">
             <p>Bienvenidos a la aplicación de gestión del Club Balonmano Gades</p>
             <div class="row offset-md-4 col-md-4 col-md-4">
-                <img src="vendor/adminlte/dist/img/gades.png" class="img-rounded" width="200" height="200">
+                <img src="vendor/adminlte/dist/img/gades.png" class="img-rounded" width="200" height="219">
             </div>
         </div>
     </div>
