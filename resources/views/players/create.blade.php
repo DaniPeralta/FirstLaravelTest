@@ -59,7 +59,7 @@
 
                 <label for="photo" class="form-label">Subir una foto</label>
                 <br>
-                <input type="file" name="photo" label="Subir una foto" value="{{ $player->photo ?? '' }}">
+                <input type="file" name="photo" label="Subir una foto" value="{{ $player->photo ?? '' }}" @if($readonly ?? '') disabled @endif >
                 <br>
                 <input type="submit" value="{{$state}} Jugador" class="btn btn-primary my-2" @if($readonly ?? '') disabled @endif />
             </div>
